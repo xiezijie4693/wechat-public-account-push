@@ -7,16 +7,16 @@ const USER_CONFIG = {
   // 公众号APP_ID
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_ID: '',
+  APP_ID: 'wx9de23383f6bee3ec',
 
   // 公众号APP_SECRET
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_SECRET: '',
+  APP_SECRET: '333e83dcb76992d072fd9492d0bd2e12',
 
   // 是否给文字设置多彩颜色, 和emoji不兼容
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
-  IS_SHOW_COLOR: true,
+  IS_SHOW_COLOR: false,
 
   // 功能开关,打开：true，关闭：false
   SWITCH: {
@@ -172,15 +172,25 @@ const USER_CONFIG = {
     },
     {
       name: '老婆1',
-      id: '',
-      useTemplateId: '',
-      province: '',
-      city: '',
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: 'https://wangxinleo.cn',
-      festivals: [],
-      customizedDateList: [],
+      id: 'oF6zO6o0Gf0V3otNP8LhaLGs3tKo',
+      useTemplateId: 'WmGyxJOzi1urmX_5E4c_whan3Ipfv3XmX4Js5YqSmUE	',
+      province: '广西',
+      city: '桂林',
+      horoscopeDate: '04-25',
+      horoscopeDateType: '今日',
+      openUrl: 'https://www.baidu.com',
+      festivals: [
+        {
+      type: '生日', name: '软软猪', year: '2005', date: '04-25', isShowAge: true,
+        },
+        {
+      type: '生日', name: '多多猪', year: '2004', date: '12-01', isShowAge: true,
+        },
+      ],
+      customizedDateList: [
+       { keyword: 'love_day', date: '2021-10-27' },
+       { keyword: 'test_day', date: '2023-06-07' },
+      ],
       courseSchedule: null
     },
     {
